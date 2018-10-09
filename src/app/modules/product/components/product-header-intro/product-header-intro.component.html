@@ -1,0 +1,19 @@
+<a href="#" class="hdca-product-box__header-intro">
+    <div class="hdca-product-box__header-intro-img-box" *ngIf="product.imageUrl">
+        <img class="hdca-product-box__header-intro-img" [src]="'/assets/images/products/' + product.imageUrl" alt="can not find image" itemprop="image" />
+    </div>
+    <div class="hdca-product-box__intro-badges" *ngIf="product.badges && product.badges.length > 0">
+        <svg class="hdca-product-box__badge-svg" *ngFor="let badge of product.badges" aria-hidden="true">
+            <use xlink:href="/assets/icons/product-en-sprite/svg/symbols.svg#badge-ECO"></use>
+        </svg>
+        <!-- <svg class="hdca-product-box__badge-svg" aria-hidden="true">
+            <use xlink:href="/assets/icons/product-en-sprite/svg/symbols.svg#badge-NLP"></use>
+        </svg>
+        <svg class="hdca-product-box__badge-svg" aria-hidden="true">
+            <use xlink:href="/assets/icons/product-en-sprite/svg/symbols.svg#badge-SB"></use>
+        </svg>
+        <svg class="hdca-product-box__badge-svg" aria-hidden="true">
+            <use xlink:href="/assets/icons/product-en-sprite/svg/symbols.svg#badge-ES"></use>
+        </svg> -->
+    </div>
+</a>

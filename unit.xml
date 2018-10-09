@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 68.0.3440 (Mac OS X 10.12.6)" package="unit" timestamp="2018-09-06T13:56:31" id="0" hostname="C02V72JPHTD6MBP" tests="1" errors="0" failures="0" time="0.086">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/68.0.3440.106 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.086" classname="unit.AppComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

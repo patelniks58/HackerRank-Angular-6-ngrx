@@ -1,0 +1,25 @@
+<div class="hdca-product-box__main-info">
+    <link itemprop="url" href="#" />
+    <a href="#" class="hdca-product-box__main-info-label hdca-product-box__main-info-label--link">
+        <span class="hdca-product-box__main-info-label-entry hdca-product-box__main-info-label-entry--brand" itemprop="manufacturer" [innerHTML]="product.brand"></span>
+        <span class="hdca-product-box__main-info-label-entry" itemprop="name" [innerHTML]="product.title"></span>
+    </a>
+    <a href="#" class="hdca-product-box__main-info-detail hdca-product-box__main-info-detail--link">
+        <div class="hdca-product-box__main-info-detail-entry">Model #
+            <span itemprop="model" [innerHTML]="product.model"></span>
+        </div>
+        <div class="hdca-product-box__main-info-detail-entry">SKU #
+            <span itemprop="sku" [innerHTML]="product.id"></span>
+        </div>
+    </a>
+    <div class="hdca-product-box__main-info-rating" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+        <a href="#rating" class="hdca-product-box__main-info-rating-link">
+            <div class="hdca-product-box__main-info-rating-link-stars">
+                <span class="hdca-product-box__main-info-rating-link-stars-overlay" [ngStyle]="{width: (100 * (product.rating / 5)) +'%'}"></span>
+            </div>
+            <meta itemprop="worstRating" content="1" />
+            <meta itemprop="ratingValue" content="3" />
+            <meta itemprop="bestRating" content="5" />
+        </a>
+    </div>
+</div>

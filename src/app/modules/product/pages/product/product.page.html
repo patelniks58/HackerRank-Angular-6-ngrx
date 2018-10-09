@@ -1,0 +1,16 @@
+<section class="hdca-product-listing" *ngIf="product$ | async; let product">
+    <div class="hdca-product-grid">
+        <div class="hdca-product-box-container" itemscope="" itemtype="http://schema.org/Product">
+            <article class="hdca-product-box">
+                <section class="hdca-product-box__header">
+                    <product-header-compare [product]="product.product"></product-header-compare>
+                    <product-header-intro [product]="product.product"></product-header-intro>
+                </section>
+                <section class="hdca-product-box__main">
+                    <product-description [product]="product.product"></product-description>
+                    <product-purchase-info [product]="product.product"></product-purchase-info>
+                </section>
+            </article>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,98 @@
+{
+  "products": [
+    {
+      "id": "1731002612",
+      "imageUrl": "product_1.jpg",
+      "brand": "Home Decorators Collection",
+      "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+      "model": "7L12X165/8045CL",
+      "rating": 3,
+      "price1": 34.00,
+      "cuom1": "case",
+      "price2": 1.97,
+      "cuom2": "sq. ft.",
+      "saving": 22,
+      "was": 41.48,
+      "addToCart": "addToCart",
+      "badges": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "id": "1911002432",
+      "imageUrl": "product_1.jpg",
+      "brand": "Home Decorators Collection",
+      "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+      "model": "7L12X165/8045CL",
+      "price1": 34.00,
+      "cuom1": "case",
+      "promo": "+25% Off Select Products",
+      "addToCart": "viewDetails"
+    },
+    {
+      "id": "1661232632",
+      "imageUrl": "product_1.jpg",
+      "brand": "Home Decorators Collection",
+      "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+      "model": "7L12X165/8045CL",
+      "price1": 41.48,
+      "cuom1": "case",
+      "price2": 2.40,
+      "cuom2": "sq. ft.",
+      "addToCart": "viewDetails"
+    },
+    {
+      "id": "1231002632",
+      "imageUrl": "product_1.jpg",
+      "brand": "Home Decorators Collection",
+      "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+      "model": "7L12X165/8045CL",
+      "rating": 4,
+      "price1": 41.48,
+      "cuom1": "case",
+      "addToCart": "viewDetails"
+    },
+    {
+      "id": "1561002632",
+      "imageUrl": "product_1.jpg",
+      "brand": "Home Decorators Collection",
+      "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+      "model": "7L12X165/8045CL",
+      "rating": 4,
+      "addToCart": "viewDetails"
+    },
+    {
+      "id": "1781002632",
+      "imageUrl": "product_1.jpg",
+      "brand": "Home Decorators Collection",
+      "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+      "model": "7L12X165/8045CL",
+      "price1": 41.48,
+      "cuom1": "case",
+      "addToCart": "viewDetails"
+    },
+    {
+      "id": "1121002632",
+      "imageUrl": "product_1.jpg",
+      "brand": "Home Decorators Collection",
+      "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+      "model": "7L12X165/8045CL",
+      "price1": 41.48,
+      "cuom1": "case",
+      "addToCart": "addToCart"
+    },
+    {
+      "id": "1461002632",
+      "imageUrl": "product_1.jpg",
+      "brand": "Home Decorators Collection",
+      "title": "5.2 cu. ft. High-Efficiency Stackable Front-Load Washer in White",
+      "model": "7L12X165/8045CL",
+      "price1": 41.48,
+      "cuom1": "case",
+      "addToCart": "viewDetails"
+    }
+  ]
+}

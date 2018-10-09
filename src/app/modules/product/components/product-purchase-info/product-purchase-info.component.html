@@ -1,0 +1,24 @@
+<div class="hdca-product-box__main-purchase">
+    <div class="hdca-product-box__main-purchase-price" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+        <span itemprop="priceCurrency" content="CAD"></span>
+        <link itemprop="itemCondition" href="http://schema.org/NewCondition" content="New" />
+        <div class="hdca-product-box__main-purchase-price-entry" *ngIf="product.price2">
+            <span class="hdca-product-box__main-purchase-price-entry-content hdca-product-box__main-purchase-price-entry-content--primary" [innerHTML]="product.price2"></span>
+            <span class="hdca-product-box__main-purchase-price-entry-content" [innerHTML]="' / ' + product.cuom2"></span>
+        </div>
+        <div class="hdca-product-box__main-purchase-price-entry" *ngIf="product.price1">
+            <span class="hdca-product-box__main-purchase-price-entry-content">$
+            <span itemprop="price" [innerHTML]="product.price1"></span> / {{product.cuom1}}</span>
+        </div>
+        <div class="hdca-product-box__main-purchase-price-entry hdca-product-box__main-purchase-price-entry--savings">
+            <time itemprop="priceValidUntil" datetime="2020-11-05"></time>
+            <span class="hdca-product-box__main-purchase-price-entry-content hdca-product-box__main-purchase-price-entry-content--primary" *ngIf="product.saving" [innerHTML]="'Save ' + product.saving + '%'"></span>
+            <span class="hdca-product-box__main-purchase-price-entry-content hdca-product-box__main-purchase-price-entry-content--was" *ngIf="product.was" [innerHTML]="'Was ' + ' $' + product.was"></span>
+        </div>
+    </div>
+    <div class="hdca-product-box__main-purchase-action hdca-product-box__main-purchase-action--tool-rental">
+        <button id="button-1379" class="hdca-button2 hdca-button2--primary hdca-button2--is-narrow hdca-product-box__main-purchase-action-item">
+            <span class="hdca-button2__label" [innerHTML]="product.addToCart"></span>
+        </button>
+    </div>
+</div>
